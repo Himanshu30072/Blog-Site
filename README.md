@@ -1,37 +1,72 @@
-# The source code of this project is upgraded to Spring Boot 3.2.1 and jwt 0.12.3
+Blog Application with REST APIs
 
-# Source code of Bestseller Udemy Course - Building Real-Time REST APIs with Spring Boot
-Learn how to build real-time REST APIs with Spring Boot by building a complete Blog App.
+This project is a complete Blog Application built using Spring Boot. It demonstrates how to create a robust, secure, and scalable RESTful API for managing blog posts and user interactions. The application also incorporates modern best practices in API development, security, and deployment.
 
-This course supports Spring Boot 3+, Spring Security 6+
+Features
 
-Reach out to me for a discount coupon at javaguides.net@gmail.com
+CRUD Operations: Create, read, update, and delete blog posts and users.
 
-Udemy Course Link - [Building Real-Time REST APIs with Spring Boot - Blog App](https://www.udemy.com/course/building-real-time-rest-apis-with-spring-boot/?referralCode=6312172DF8B8C2C11F5E)
+Pagination & Sorting: Efficiently fetch and organize large datasets.
 
-# What you'll learn in this course?
-- Learn how to build great REST APIs for Blog App using Spring Boot, Spring Security, JWT, Spring Data JPA (Hibernate), MySQL database
-- Learn REST basics - Resource, Sub-resource, URI, HTTP methods, HTTP status codes
-- Learn how to build CRUD REST APIs
-- Learn how to build REST APIs for Pagination and Sorting
-- Learn how to build REST APIs for Login/Signin and Signup
-- Learn how to use Lombok
-- Learn how to use DTOs
-- Learn Spring boot REST API exception handling 
-- Learn Spring boot REST API validation
-- Learn how to use Spring security in the Spring boot project
-- Learn Spring Security In-memory and DB authentication and authorization
-- Learn how to secure REST APIs (role-based security)
-- Learn how to write query methods using Spring Data JPA
-- Learn one-to-many and many-to-many JPA mappings 
-- Learn how to test REST APIs using Postman REST Client
-- Learn What is JWT and How it Works
-- Learn How to configure JWT ( JSON Web Token) in Spring Security
-- Learn how to secure REST APIs using JWT
-- Learn how to use JWT with Login API
-- Learn versioning REST APIs
-- Learn Important 4 versioning REST API strategies
-- Deploy Spring Boot Blog App on AWS Cloud
-- Learn Docker
-- Learn Spring and Spring Boot Annotations
-- Interview QA
+Search & Filter: Customizable query methods for flexible data retrieval.
+
+User Authentication & Authorization:
+
+Role-based access control using Spring Security.
+
+Secure APIs with JWT (JSON Web Tokens).
+
+In-memory and database authentication.
+
+
+REST API Design Principles:
+
+Resource & sub-resource modeling.
+
+Proper usage of HTTP methods and status codes.
+
+
+Validation & Exception Handling:
+
+Input validation for API requests.
+
+Global and custom exception handling.
+
+
+Entity Relationships:
+
+JPA mappings such as one-to-many and many-to-many.
+
+
+DTO Pattern: Use of Data Transfer Objects to separate API responses from domain models.
+
+Transaction Management: Ensures data consistency with Spring Data JPA.
+
+API Documentation: Interactive API documentation using Swagger UI with customization.
+
+Environment Profiles: Support for different environments (development, production).
+
+
+Tools & Technologies
+
+Java 8+
+
+Spring Boot
+
+Spring Security
+
+JWT (JSON Web Token)
+
+Hibernate (Spring Data JPA)
+
+MySQL Database
+
+Lombok for reducing boilerplate code
+
+Swagger UI for API documentation
+
+Postman for API testing
+
+Docker for containerization
+
+AWS for deployment
